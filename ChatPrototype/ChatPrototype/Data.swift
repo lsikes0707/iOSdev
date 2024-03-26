@@ -19,9 +19,9 @@ struct Info {
 }
 
 let information = Info(
-    image: "Placeholder",
+    image: "VolleyPong.PNG",
     name: "Lacey",
-    story: "Loving playing in the iOS environment. Xcode and SwiftUI are so far intuitive and fun. I really appreicate Apple's documentation; althought it isn't perfect, it is imho still pretty good.",
+    story: "I enjoy working in the iOS environment. Xcode and SwiftUI are so far intuitive and fun. I really appreicate Apple's documentation.",
     hobbies: ["figure.pool.swim", "laptopcomputer", "book.fill"],
     foods: ["🥐", "🌮", "🍣"],
     colors: [Color.blue, Color.purple, Color.red, Color.orange],

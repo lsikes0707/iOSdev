@@ -9,13 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Group {
+        ZStack {
+            backgroundGradient
             VStack {
                 Text("All About")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding()
-                
                 Image(information.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -24,6 +24,7 @@ struct HomeView: View {
                 
                 Text(information.name)
                     .font(.title)
+                    .foregroundStyle(.white)
             }
         }
     }

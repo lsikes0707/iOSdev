@@ -17,7 +17,7 @@ struct ChatPrototypeApp: App {
         WindowGroup {
             ContentView()
             //.background(Color.black)
-            backgroundGradient
+            //backgroundGradient
         }
     }
 }

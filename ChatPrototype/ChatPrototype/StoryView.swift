@@ -9,19 +9,24 @@ import SwiftUI
 
 struct StoryView: View {
     var body: some View {
-        VStack {
-            Text("My Story")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding()
-            
-            ScrollView {
-                Text(information.story)
-                    .font(.body)
+        ZStack {
+            backgroundGradient
+            VStack {
+                Text("My Story")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
                     .padding()
+                    .foregroundStyle(.white)
+                
+                ScrollView {
+                    Text(information.story)
+                        .font(.body)
+                        .padding()
+                        .foregroundStyle(.white)
+                }
             }
+            .padding([.top, .bottom], 50)
         }
-        .padding([.top, .bottom], 50)
     }
 }
 

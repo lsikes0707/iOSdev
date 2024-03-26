@@ -8,10 +8,6 @@
 import Foundation
 import SwiftUI
 
-/*let backgroundGradient2 = LinearGradient(
-    colors: [Color.gray, Color.black],
-    startPoint: .top, endPoint: .bottom)*/
-
 struct InternalView: View {
     var body: some View {
         TabView {
