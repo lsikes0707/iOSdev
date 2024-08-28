@@ -8,20 +8,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Add A Birthday-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RememberMyBirthday" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Add A Birthday" id="BYZ-38-t0r" customClass="ViewController" customModule="RememberMyBirthday" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Add A Birthday" id="3MQ-pX-52Z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1900" y="-2.1126760563380285"/>
         </scene>
         <!--Birthdays-->
         <scene sceneID="Xre-FD-57h">
@@ -46,7 +47,13 @@
                             <outlet property="delegate" destination="ImG-Uf-Q1h" id="V7l-BT-jg1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Birthdays" id="eDP-SQ-iEr"/>
+                    <navigationItem key="navigationItem" title="Birthdays" id="eDP-SQ-iEr">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Rqh-ea-E3N">
+                            <connections>
+                                <segue destination="QHR-GC-kPV" kind="presentation" id="PwF-Ns-kqj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Haa-CO-GQE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,6 +76,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0kN-oS-tkA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-773.28244274809163" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kAD-0z-Frp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QHR-GC-kPV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7bg-9l-fNe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="y6a-Hk-tA6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kop-nM-HHB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>

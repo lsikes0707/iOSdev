@@ -7,29 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE742FA72C7BE85600E9AD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE742FA62C7BE85600E9AD12 /* AppDelegate.swift */; };
-		BE742FA92C7BE85600E9AD12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE742FA82C7BE85600E9AD12 /* SceneDelegate.swift */; };
-		BE742FAB2C7BE85600E9AD12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE742FAA2C7BE85600E9AD12 /* ViewController.swift */; };
-		BE742FAE2C7BE85600E9AD12 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE742FAD2C7BE85600E9AD12 /* Base */; };
-		BE742FB12C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE742FAF2C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodeld */; };
-		BE742FB32C7BE85800E9AD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE742FB22C7BE85800E9AD12 /* Assets.xcassets */; };
-		BE742FB62C7BE85800E9AD12 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE742FB52C7BE85800E9AD12 /* Base */; };
+		BEB3AFD32C7ED5FC0066192F /* BirthdaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3AFD22C7ED5FC0066192F /* BirthdaysApp.swift */; };
+		BEB3AFD52C7ED5FC0066192F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3AFD42C7ED5FC0066192F /* ContentView.swift */; };
+		BEB3AFD72C7ED5FD0066192F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB3AFD62C7ED5FD0066192F /* Assets.xcassets */; };
+		BEB3AFDA2C7ED5FD0066192F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB3AFD92C7ED5FD0066192F /* Preview Assets.xcassets */; };
+		BEB3AFDC2C7ED5FD0066192F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3AFDB2C7ED5FD0066192F /* Persistence.swift */; };
+		BEB3AFDF2C7ED5FD0066192F /* Birthdays.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEB3AFDD2C7ED5FD0066192F /* Birthdays.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE742FA32C7BE85600E9AD12 /* RememberMyBirthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberMyBirthday.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE742FA62C7BE85600E9AD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE742FA82C7BE85600E9AD12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE742FAA2C7BE85600E9AD12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE742FAD2C7BE85600E9AD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE742FB02C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RememberMyBirthday.xcdatamodel; sourceTree = "<group>"; };
-		BE742FB22C7BE85800E9AD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE742FB52C7BE85800E9AD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BE742FB72C7BE85800E9AD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB3AFCF2C7ED5FC0066192F /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB3AFD22C7ED5FC0066192F /* BirthdaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysApp.swift; sourceTree = "<group>"; };
+		BEB3AFD42C7ED5FC0066192F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEB3AFD62C7ED5FD0066192F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEB3AFD92C7ED5FD0066192F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEB3AFDB2C7ED5FD0066192F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BEB3AFDE2C7ED5FD0066192F /* Birthdays.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Birthdays.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE742FA02C7BE85600E9AD12 /* Frameworks */ = {
+		BEB3AFCC2C7ED5FC0066192F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +36,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE742F9A2C7BE85600E9AD12 = {
+		BEB3AFC62C7ED5FC0066192F = {
 			isa = PBXGroup;
 			children = (
-				BE742FA52C7BE85600E9AD12 /* RememberMyBirthday */,
-				BE742FA42C7BE85600E9AD12 /* Products */,
+				BEB3AFD12C7ED5FC0066192F /* Birthdays */,
+				BEB3AFD02C7ED5FC0066192F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE742FA42C7BE85600E9AD12 /* Products */ = {
+		BEB3AFD02C7ED5FC0066192F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE742FA32C7BE85600E9AD12 /* RememberMyBirthday.app */,
+				BEB3AFCF2C7ED5FC0066192F /* Birthdays.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE742FA52C7BE85600E9AD12 /* RememberMyBirthday */ = {
+		BEB3AFD12C7ED5FC0066192F /* Birthdays */ = {
 			isa = PBXGroup;
 			children = (
-				BE742FA62C7BE85600E9AD12 /* AppDelegate.swift */,
-				BE742FA82C7BE85600E9AD12 /* SceneDelegate.swift */,
-				BE742FAA2C7BE85600E9AD12 /* ViewController.swift */,
-				BE742FAC2C7BE85600E9AD12 /* Main.storyboard */,
-				BE742FB22C7BE85800E9AD12 /* Assets.xcassets */,
-				BE742FB42C7BE85800E9AD12 /* LaunchScreen.storyboard */,
-				BE742FB72C7BE85800E9AD12 /* Info.plist */,
-				BE742FAF2C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodeld */,
+				BEB3AFD22C7ED5FC0066192F /* BirthdaysApp.swift */,
+				BEB3AFD42C7ED5FC0066192F /* ContentView.swift */,
+				BEB3AFD62C7ED5FD0066192F /* Assets.xcassets */,
+				BEB3AFDB2C7ED5FD0066192F /* Persistence.swift */,
+				BEB3AFDD2C7ED5FD0066192F /* Birthdays.xcdatamodeld */,
+				BEB3AFD82C7ED5FD0066192F /* Preview Content */,
 			);
-			path = RememberMyBirthday;
+			path = Birthdays;
+			sourceTree = "<group>";
+		};
+		BEB3AFD82C7ED5FD0066192F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEB3AFD92C7ED5FD0066192F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE742FA22C7BE85600E9AD12 /* RememberMyBirthday */ = {
+		BEB3AFCE2C7ED5FC0066192F /* Birthdays */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE742FBA2C7BE85800E9AD12 /* Build configuration list for PBXNativeTarget "RememberMyBirthday" */;
+			buildConfigurationList = BEB3AFE22C7ED5FD0066192F /* Build configuration list for PBXNativeTarget "Birthdays" */;
 			buildPhases = (
-				BE742F9F2C7BE85600E9AD12 /* Sources */,
-				BE742FA02C7BE85600E9AD12 /* Frameworks */,
-				BE742FA12C7BE85600E9AD12 /* Resources */,
+				BEB3AFCB2C7ED5FC0066192F /* Sources */,
+				BEB3AFCC2C7ED5FC0066192F /* Frameworks */,
+				BEB3AFCD2C7ED5FC0066192F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RememberMyBirthday;
-			productName = RememberMyBirthday;
-			productReference = BE742FA32C7BE85600E9AD12 /* RememberMyBirthday.app */;
+			name = Birthdays;
+			productName = Birthdays;
+			productReference = BEB3AFCF2C7ED5FC0066192F /* Birthdays.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE742F9B2C7BE85600E9AD12 /* Project object */ = {
+		BEB3AFC72C7ED5FC0066192F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					BE742FA22C7BE85600E9AD12 = {
+					BEB3AFCE2C7ED5FC0066192F = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = BE742F9E2C7BE85600E9AD12 /* Build configuration list for PBXProject "RememberMyBirthday" */;
+			buildConfigurationList = BEB3AFCA2C7ED5FC0066192F /* Build configuration list for PBXProject "Birthdays" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,64 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = BE742F9A2C7BE85600E9AD12;
-			productRefGroup = BE742FA42C7BE85600E9AD12 /* Products */;
+			mainGroup = BEB3AFC62C7ED5FC0066192F;
+			productRefGroup = BEB3AFD02C7ED5FC0066192F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE742FA22C7BE85600E9AD12 /* RememberMyBirthday */,
+				BEB3AFCE2C7ED5FC0066192F /* Birthdays */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE742FA12C7BE85600E9AD12 /* Resources */ = {
+		BEB3AFCD2C7ED5FC0066192F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE742FB32C7BE85800E9AD12 /* Assets.xcassets in Resources */,
-				BE742FB62C7BE85800E9AD12 /* Base in Resources */,
-				BE742FAE2C7BE85600E9AD12 /* Base in Resources */,
+				BEB3AFDA2C7ED5FD0066192F /* Preview Assets.xcassets in Resources */,
+				BEB3AFD72C7ED5FD0066192F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE742F9F2C7BE85600E9AD12 /* Sources */ = {
+		BEB3AFCB2C7ED5FC0066192F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE742FAB2C7BE85600E9AD12 /* ViewController.swift in Sources */,
-				BE742FA72C7BE85600E9AD12 /* AppDelegate.swift in Sources */,
-				BE742FA92C7BE85600E9AD12 /* SceneDelegate.swift in Sources */,
-				BE742FB12C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodeld in Sources */,
+				BEB3AFDF2C7ED5FD0066192F /* Birthdays.xcdatamodeld in Sources */,
+				BEB3AFDC2C7ED5FD0066192F /* Persistence.swift in Sources */,
+				BEB3AFD52C7ED5FC0066192F /* ContentView.swift in Sources */,
+				BEB3AFD32C7ED5FC0066192F /* BirthdaysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		BE742FAC2C7BE85600E9AD12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE742FAD2C7BE85600E9AD12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BE742FB42C7BE85800E9AD12 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE742FB52C7BE85800E9AD12 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		BE742FB82C7BE85800E9AD12 /* Debug */ = {
+		BEB3AFE02C7ED5FD0066192F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +216,7 @@
 			};
 			name = Debug;
 		};
-		BE742FB92C7BE85800E9AD12 /* Release */ = {
+		BEB3AFE12C7ED5FD0066192F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,27 +272,28 @@
 			};
 			name = Release;
 		};
-		BE742FBB2C7BE85800E9AD12 /* Debug */ = {
+		BEB3AFE32C7ED5FD0066192F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Birthdays/Preview Content\"";
 				DEVELOPMENT_TEAM = XBP7AFBL59;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RememberMyBirthday/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Birthdays;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lailaisgames.RememberMyBirthday;
+				PRODUCT_BUNDLE_IDENTIFIER = lailaisgames.Birthdays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,27 +301,28 @@
 			};
 			name = Debug;
 		};
-		BE742FBC2C7BE85800E9AD12 /* Release */ = {
+		BEB3AFE42C7ED5FD0066192F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Birthdays/Preview Content\"";
 				DEVELOPMENT_TEAM = XBP7AFBL59;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RememberMyBirthday/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Birthdays;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lailaisgames.RememberMyBirthday;
+				PRODUCT_BUNDLE_IDENTIFIER = lailaisgames.Birthdays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,20 +333,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE742F9E2C7BE85600E9AD12 /* Build configuration list for PBXProject "RememberMyBirthday" */ = {
+		BEB3AFCA2C7ED5FC0066192F /* Build configuration list for PBXProject "Birthdays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE742FB82C7BE85800E9AD12 /* Debug */,
-				BE742FB92C7BE85800E9AD12 /* Release */,
+				BEB3AFE02C7ED5FD0066192F /* Debug */,
+				BEB3AFE12C7ED5FD0066192F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE742FBA2C7BE85800E9AD12 /* Build configuration list for PBXNativeTarget "RememberMyBirthday" */ = {
+		BEB3AFE22C7ED5FD0066192F /* Build configuration list for PBXNativeTarget "Birthdays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE742FBB2C7BE85800E9AD12 /* Debug */,
-				BE742FBC2C7BE85800E9AD12 /* Release */,
+				BEB3AFE32C7ED5FD0066192F /* Debug */,
+				BEB3AFE42C7ED5FD0066192F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -369,17 +354,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BE742FAF2C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodeld */ = {
+		BEB3AFDD2C7ED5FD0066192F /* Birthdays.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BE742FB02C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodel */,
+				BEB3AFDE2C7ED5FD0066192F /* Birthdays.xcdatamodel */,
 			);
-			currentVersion = BE742FB02C7BE85600E9AD12 /* RememberMyBirthday.xcdatamodel */;
-			path = RememberMyBirthday.xcdatamodeld;
+			currentVersion = BEB3AFDE2C7ED5FD0066192F /* Birthdays.xcdatamodel */;
+			path = Birthdays.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = BE742F9B2C7BE85600E9AD12 /* Project object */;
+	rootObject = BEB3AFC72C7ED5FC0066192F /* Project object */;
 }
